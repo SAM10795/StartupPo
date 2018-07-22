@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ecellapp.sam10795.com.startuppo.CatchActivity"
+    tools:showIn="@layout/activity_catch"
+    android:id="@+id/frame"
+    android:background="@drawable/ecellbg">
+
+    <ImageView
+        android:id="@+id/cashbag"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/cbag" />
+
+    <ImageView
+        android:id="@+id/startup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cinfo"
+        android:layout_gravity="left|top"
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+</FrameLayout>
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+

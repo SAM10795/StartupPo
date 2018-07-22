@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ecellapp.sam10795.com.startuppo.CatchActivity">
+
+    <include layout="@layout/content_catch" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_labels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        app:fab_addButtonColorNormal="#fff"
+        app:fab_addButtonColorPressed="#fef"
+        app:fab_addButtonPlusIconColor="#000"
+        app:fab_addButtonSize="mini"
+        app:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/m_bag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#fef"
+            app:fab_icon="@drawable/mbag"
+            app:fab_size="mini"
+            app:fab_title="Master Ball" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/u_bag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#fef"
+            app:fab_icon="@drawable/ubag"
+            app:fab_size="mini"
+            app:fab_title="Ultra Ball" />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/g_bag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#fef"
+            app:fab_icon="@drawable/gbag"
+            app:fab_size="mini"
+            app:fab_title="Great Ball" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/c_bag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#fef"
+            app:fab_icon="@drawable/cbag"
+            app:fab_size="mini"
+            app:fab_title="Pokeball" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

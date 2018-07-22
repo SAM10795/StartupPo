@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "673984917987",
+    "firebase_url": "https://startuppo-70fb8.firebaseio.com",
+    "project_id": "startuppo-70fb8",
+    "storage_bucket": "startuppo-70fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673984917987:android:b29a4d0a61f4a2c0",
+        "android_client_info": {
+          "package_name": "ecellapp.sam10795.com.startuppo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673984917987-h2s9tgb9q97d4pcipo8ts5u1s1tghesc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmzWG23vETuD8ik4jnzVNl2mBv8FDeMhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

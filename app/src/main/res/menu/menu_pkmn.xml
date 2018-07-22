@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ecellapp.sam10795.com.startuppo.mypkmn">
+    <item android:id="@+id/action_sort2" android:title="Sort by Level"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>

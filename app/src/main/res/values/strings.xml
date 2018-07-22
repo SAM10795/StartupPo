@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Startûp Go!</string>
+
+    <string name="Device">Device_1</string>
+    <string name="MSG">MSG_1</string>
+    <string name="Towers">Towers_1</string>
+    <string name="Users">Users_1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mainu">Mainu</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_mypkmn">My Startups</string>
+    <string name="title_activity_flaunch">First Launch</string>
+    <string name="title_activity_catch">Catch Activity</string>
+    <string name="title_activity_achievements">Achievements</string>
+
+    <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="gamehelper_license_failed">License check failed.</string>
+    <string name="gamehelper_unknown_error">Unknown error.</string>
+    <string name="taptest">Tap Test!</string>>
+    <string name="tap_instr">Tap the button as many times as you can in the next 5 seconds.
+    Higher tap rate gets better rewards!\n Timer will begin with the first tap!</string>
+
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="license_failed">License check failed.</string>
+    <string name="unknown_error">Unknown error.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about">
+        Disclaimer: I do not claim ownership of any organizations featured in this game.\n
+        I believe the use of the content and logos is in accordance with the Fair Use Policy\n
+        Feedback and suggestions are appreciated\n
+        Mailto: silversoulsam@gmail.com\n\n\n
+        Credits:\n
+        Developed by Sameer Kulkarni for E-Cell, IIT Madras.\n
+        Library floatingactionbutton from user chalup\n
+        Startup logos and info taken from Google Images and Search\n\n\n
+        App Version: 1.808
+    </string>
+
+
+    <string name="howto">
+        IMPORTANT: Ensure that you are connected to the internet when playing the game.\n
+        To catch a Startup, turn on the GPS and wait for a few seconds until it acquires your location.\n
+        If a Startup is around, your phone will vibrate and you will be prompted to catch it.\n
+        If nothing shows up, try moving to a different location or wait for a few minutes.\n\n
+        In case you need practice to adjust to the catching mechanism, use the Catching Practice Mode.\n
+        Catching a Startup is easiest when using a Masterball and the difficulty rises as you move downwards\n
+        You can get Cashballs from FundingPoints in the insti. However, note that you can only use 1 point once every 10 minutes.\n
+        There is a box limit on the number of Startup you can catch. The default limit is 50.\n
+        If you exceed the limit, you will be prompted to release Startup.\n
+        To level up your Startup, select the Startup in \'My Startup\' section and click the level up button to be redirected to the level-up minigame.\n
+        The minigame requires you to tap on the Startup for a given number of times in a set time limit to level up.\n
+        To trade Startups, go to the Trade section and Scan for other players. If another player is already scanning, wait until they are connected to you.\n
+        Click on the Startup you want to trade and once the other player has selected theirs, the trade will take place\n
+        To capture a Tower, tap on it. You will be prompted to select the startup to guard the tower.\n
+        If the tower is already captured, you will have to battle the Startup that is guarding it and defeat it.\n
+        Note that you can only capture one tower at a time.\n
+        Good luck and have fun!\n
+    </string>
+    <string name="catch_prac">
+        The trajectory of the cashball is dependent on the fling speed and the angle at which you shoot it.\n
+        The cashball must follow a parabolic path and land on the Startup to capture it.\n
+        If the speed isn\'t correct, the cashball might go through the Startup instead of capturing it.\n
+        The thresholds are smallest for the Cashball and highest for the MasterCashBall.\n
+        Therefore, it will be easier to capture Startup with a MasterCashBall or an UltraCashBall than a Cashball.\n
+        \n\n
+        GET AS MUCH PRACTICE AS YOU CAN BECAUSE YOU\'LL ONLY GET THREE CHANCES TO CAPTURE A STARTUP\n
+    </string>
+    <string name="propic_descr">Click to set Profile Picture</string>
+    <string name="timespent">Time Spent</string>
+    <string name="boxlim">Box limit</string>
+    <string name="totalscore">Total Score</string>
+    <string name="pktrdd">Startup traded</string>
+    <string name="legownd">Legendaries owned</string>
+    <string name="pkmnev">Startups Evolved</string>
+    <string name="battlerecord">Battle Record</string>
+    <string name="pkmnowned">Startups Owned</string>
+    <string name="pkballs">Cashballs</string>
+    <string name="alak">Alakananda</string>
+    <string name="brahms">Brahmaputra</string>
+    <string name="cav">Cauvery</string>
+    <string name="ganga">Ganga</string>
+    <string name="godav">Godavari</string>
+    <string name="jam">Jamuna</string>
+    <string name="kris">Krishna</string>
+    <string name="mahan">Mahanadhi</string>
+    <string name="mandak">Mandakini</string>
+    <string name="narmad">Narmada</string>
+    <string name="pampa">Pampa</string>
+    <string name="saras">Saraswathi</string>
+    <string name="sarayu">Sarayu</string>
+    <string name="sharav">Sharavathi</string>
+    <string name="sindhu">Sindhu</string>
+    <string name="tambi">Tamraparani</string>
+    <string name="tapti">Tapti</string>
+    <string name="samati">Sabarmati</string>
+    <string name="bhadra">Bhadra</string>
+    <string name="tunga">Tunga</string>
+    <array name="hostels">
+        <item>Alakananda</item>
+        <item>Bhadra</item>
+        <item>Brahmaputra</item>
+        <item>Cauvery</item>
+        <item>Ganga</item>
+        <item>Godavari</item>
+        <item>Jamuna</item>
+        <item>Krishna</item>
+        <item>Mahanadhi</item>
+        <item>Mandakini</item>
+        <item>Narmada</item>
+        <item>Pampa</item>
+        <item>Sabarmati</item>
+        <item>Saraswathi</item>
+        <item>Sarayu</item>
+        <item>Sharavathi</item>
+        <item>Sindhu</item>
+        <item>Tamraparani</item>
+        <item>Tapti</item>
+        <item>Tunga</item>
+    </array>
+
+</resources>
